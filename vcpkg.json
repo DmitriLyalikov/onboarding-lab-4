@@ -7,5 +7,13 @@
     "Vito Gamberini <vito@gamberini.email>"
   ],
   "license": "CC0-1.0",
-  "dependencies": []
+  "dependencies": [],
+  "vcpkg-configuration": {
+    "default-registry": {
+      "kind": "git",
+      "baseline": "6046e48163a26252f7a8f4aa036cbdd9eb793c20",
+      "repository": "https://github.com/microsoft/vcpkg.git"
+    },
+    "registries": []
+  }
 }
