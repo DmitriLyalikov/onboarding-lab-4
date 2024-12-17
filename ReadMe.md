@@ -18,4 +18,9 @@ Packages hold the source or utilities for the specific function we need. It is b
    - It often contains only **header files** or interfaces with abstract descriptions (e.g., prototypes, templates, or base classes).
    - Interface libraries are used during **compile-time** to specify the structure and behavior expected by the program but defer implementation to other components.  
    - They do not include actual compiled code but serve as a contract between modules or systems.
-  Interfaces are helpful in C++ for template based programming based on certian function or class prototypes or base classes. 
+  Interfaces are helpful in C++ for template based programming based on certian function or class prototypes or base classes.
+
+
+## What is a top module?
+
+A top module is the high level verilog/systemverilog instantiation that contains all other submodules for design prototyping or testing. This is not inside of any thing else. In other words, it is the module that is being interacted with in test benches directly by controlling or observing IO.
